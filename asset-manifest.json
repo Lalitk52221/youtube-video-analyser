@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/youtube-video-analyser/static/css/main.1eca94d8.css",
-    "main.js": "/youtube-video-analyser/static/js/main.07d2449e.js",
+    "main.js": "/youtube-video-analyser/static/js/main.080615ef.js",
     "static/js/453.b7b24838.chunk.js": "/youtube-video-analyser/static/js/453.b7b24838.chunk.js",
     "index.html": "/youtube-video-analyser/index.html",
     "main.1eca94d8.css.map": "/youtube-video-analyser/static/css/main.1eca94d8.css.map",
-    "main.07d2449e.js.map": "/youtube-video-analyser/static/js/main.07d2449e.js.map",
+    "main.080615ef.js.map": "/youtube-video-analyser/static/js/main.080615ef.js.map",
     "453.b7b24838.chunk.js.map": "/youtube-video-analyser/static/js/453.b7b24838.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1eca94d8.css",
-    "static/js/main.07d2449e.js"
+    "static/js/main.080615ef.js"
   ]
 }
