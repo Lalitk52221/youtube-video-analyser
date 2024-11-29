@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         <form onSubmit={handleChange}>
           <div className="input-box">
-            <img src="./images/YLogo.png" alt="" />
+            <img src="./Images/YLogo.png" alt="" />
             <input
               type="url"
               value={valueUrl}
