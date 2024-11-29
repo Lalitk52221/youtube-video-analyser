@@ -1,0 +1,87 @@
+.videoDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 30px; */
+}
+.data{
+    margin: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(38, 38, 37);
+    padding: 30px;
+    border-radius: 20px;
+}
+.data img{
+    width: 250px;
+    height: 150px;
+}
+.data .details{
+    width:300px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.data .price{
+    width: 300px;
+    background-color: rgb(81, 80, 79);
+    height: 150px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px; 
+}
+
+
+.OthervideoDetails {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.OthervideoDetails table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.OthervideoDetails th,
+.OthervideoDetails td {
+  padding: 12px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.OthervideoDetails th {
+  font-weight: bold;
+}
+
+.OthervideoDetails td img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.OthervideoDetails td {
+  vertical-align: middle;
+}
+
+.OthervideoDetails td p {
+  margin: 0;
+}
+
+.OthervideoDetails td:first-child,
+.OthervideoDetails th:first-child {
+  text-align: center;
+}
+
+.OthervideoDetails td[colspan="7"] {
+  text-align: center;
+  padding: 20px;
+}
+

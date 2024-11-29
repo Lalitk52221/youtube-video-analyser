@@ -1,0 +1,78 @@
+body{
+  font-family: var(--primary-font);
+  background-color: black;
+  color: white;
+}
+header{
+  color: red;
+  padding: 30px;
+  width: 100%;
+  font-size: 20px;
+  /* border: 1px solid red; */
+}
+header span{
+  color: white;
+  font-size: 30px;
+}
+main{
+  display: flex;
+  align-items: center;justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.title{
+  color: white;
+  font-family: var(--secondary-font);
+  font-size: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 30px;
+}
+.title h1, p{
+  text-align: center;
+}
+form{
+  display: flex;
+  gap: 30px;
+  width: 70%;
+  
+}
+form img{
+  width: 20px;
+  height: 20px;
+}
+form .input-box{
+  width:100%;
+  background: white;
+  display: flex;
+  border-radius: 50px;
+  padding: 0 20px;
+  align-items: center;
+  border: 1px solid red;
+}
+form .input-box input{
+  background: transparent;
+  outline: none;
+  border: none;
+  padding:15px 20px;
+  width: 100%;
+}
+form button{
+  outline: none;
+  border: none;
+  background-color: red;
+  padding: 5px 30px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+}
