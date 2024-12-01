@@ -1,5 +1,5 @@
 import { API_KEY } from "../Apikey";
-import { createContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import "./VideoDetails.css";
 import { FaComment, FaEye, FaThumbsUp } from "react-icons/fa";
@@ -15,6 +15,7 @@ const VideoDetails = () => {
   const [relatedVideo, setRelatedVideo] = useState(null);
   const [relatedVideoId, setRelatedVideoId] = useState([]);
   const param = useParams();
+  // const API_KEY = process.env.REACT_APP_APIKEY ;
 
   const fetchVideoData = async () => {
     try {
