@@ -15,7 +15,7 @@ const VideoDetails = () => {
   const [relatedVideo, setRelatedVideo] = useState(null);
   const [relatedVideoId, setRelatedVideoId] = useState([]);
   const param = useParams();
-  // const API_KEY = process.env.REACT_APP_APIKEY ;
+  // const API_KEY = process.env.APIKEY ;
 
   const fetchVideoData = async () => {
     try {

@@ -7,7 +7,7 @@ const RelatedVideos = () => {
   console.log(subscriber);
 
   const [otherVideoDetails, setOtherVideoDetails] = useState([]);
-  // const API_KEY = process.env.MY_APIKEY;
+  // const API_KEY = process.env.APIKEY;
   //   console.log(relatedVideoId);
   const fetchOtherVideoDetails = async () => {
     const videoData = [];
